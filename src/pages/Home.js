@@ -11,12 +11,6 @@ function Home() {
     const [images, setImages] = useState([]);
     const [error, setError] = useState(false);
 
-    //for the modal
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
     useEffect(() => {
         setLoading(true);
         axios
@@ -33,6 +27,7 @@ function Home() {
     }, []);
     return (
         <div className="main__div">
+            {error && <p>there is error</p>}
             {isLoading ? (
                 <Loader />
             ) : (
