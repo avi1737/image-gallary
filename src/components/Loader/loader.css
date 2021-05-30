@@ -1,0 +1,54 @@
+.dotwrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.loading {
+    margin: 0 5px;
+    font-size: 1.5rem;
+}
+
+.dot0 {
+    background-color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    animation: BounceAnimation 0.5s linear infinite;
+    animation-delay: 0;
+}
+
+.dot1 {
+    background-color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    animation: BounceAnimation 0.5s linear infinite;
+    animation-delay: 0.1s;
+}
+
+.dot2 {
+    background-color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    animation: BounceAnimation 0.5s linear infinite;
+    animation-delay: 0.2s;
+}
+
+@keyframes BounceAnimation {
+    0% {
+        margin-bottom: 0;
+    }
+
+    50% {
+        margin-bottom: 15px;
+    }
+
+    100% {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,23 @@
+.image__card {
+    width: 28%;
+    height: 100%;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.image__card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .image__card {
+        width: 80%;
+        height: 100%;
+        padding: 10px;
+        background-color: white;
+        cursor: pointer;
+    }
+}

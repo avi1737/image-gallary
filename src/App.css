@@ -1,0 +1,22 @@
+.main__div {
+    background-image: linear-gradient(#00d4ff, #b3ffb2);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10%;
+    row-gap: 20px;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .main__div {
+        flex-direction: column;
+        padding: 3%;
+        row-gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}
