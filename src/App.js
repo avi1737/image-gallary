@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Learning GIT
 // yes 
 
+// I have added footer into code take it.
+
 function App() {
   return (
      <Home/>
